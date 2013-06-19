@@ -1,0 +1,10 @@
+<phpunit bootstrap="unittest-bootstrap.php">
+  <testsuites>
+    <testsuite name="wagerplayer">
+      <file>sites/all/modules/internal/wagerplayer/test/wagerplayerCustomerTest.php</file>
+    </testsuite>
+    <testsuite name="wl_common">
+      <file>sites/all/modules/internal/wl_common/test/whitelabelCommonManagerTest.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
